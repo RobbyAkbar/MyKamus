@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_top">
+        <item
+            android:id="@+id/nav_eng"
+            android:icon="@drawable/ic_action_sort"
+            android:title="@string/english_indonesia"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_ind"
+            android:icon="@drawable/ic_action_sort"
+            android:title="@string/indonesia_english"/>
+    </group>
+    <group android:checkableBehavior="none"
+        android:id="@+id/menu_boottom">
+        <item android:id="@+id/nav_exit"
+            android:title="@string/exit"
+            android:icon="@drawable/ic_action_exit"/>
+    </group>
+
+</menu>
